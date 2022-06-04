@@ -9,7 +9,6 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={Homepage} />
         <Route path="/sadBear" exact component={SadBear} />
       </Switch>
     </BrowserRouter>
